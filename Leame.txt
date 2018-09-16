@@ -1,0 +1,11 @@
+INSTRUCCIONES:
+Gracias por descargar estos archivos, las instrucciones son fáciles, solo tiene que elegir cual de las cinco texturas elegir
+dependiendo de la posición del reflejom luego pónga la textura dentro de la carpeta "textures" de Celestia y cámbiele el nombre
+por "flare" para que funcione.
+Si la posición de la imagen no concuerda exactamente con la estrella puede mover la imagen con cualquier programa de retoque fotográfico.
+
+Dedicado a mi amiga (que echo de menos) CCO.
+
+Pericapolis.
+Para preguntas o consultas: Pericapolis@hotmail.com
+Si encuentra algún problema por favor escríbame por email.

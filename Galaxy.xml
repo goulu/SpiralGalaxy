@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="Windows-1252" standalone="yes"?>
+<!--
+====================================
+22.08.2007 Dr. Goulu : Spiral Galaxy edited from Vertex Pool Demo
+21.06.2006 VERTEX POOL DEMO by jared@lumendigital.co.nz
+====================================
+
+====================================
+-->
+<demoniak3d>
+
+<scene name="SPIRAL GALAXY"
+       display_fps="TRUE" 
+       show_ref_grid="FALSE" 
+       vsync="FALSE" 
+	   display_hyperion_logo="TRUE">
+	<infos_color r="1.0" g="1.0" b="1.0" />
+	<window_size width="1024" height="768" />
+</scene>
+
+<skybox name="deepsky">
+	<xneg_face filename="back.jpg"/>
+	<xpos_face filename="back.jpg"/>
+	<yneg_face filename="back.jpg"/>
+	<ypos_face filename="back.jpg"/>
+	<zneg_face filename="back.jpg"/>
+	<zpos_face filename="back.jpg"/>
+</skybox>
+
+<camera name="camera" fov="35.0" navigation_mode="EXAMINE" mouse_wheel_speed="1000.0" far_plane="20000.0">
+
+  <orientation pitch="20.0" yaw="90.0" />
+  <lookat x="0.0" y="0.0" z="0" w="1.0" />
+  <position x="0" y="10000" z="10000" />
+</camera>
+
+<font name="font" render="TRUE" ttf_name="Arial" size="16" >
+	<text_2d>
+		<color r="1.0" g="0.5" b="0.1" />
+		<position x="10" y="5" />
+		<text text="Spiral Galaxy by Dr. Goulu (www.3dmon.com)" />
+	</text_2d>
+		<text_2d>
+		<color r="1.0" g="0.5" b="0.1" />
+		<position x="10" y="25" />
+		<text text="Stars :" />
+	</text_2d>
+	<text_2d>
+		<color r="1.0" g="0.5" b="0.1" />
+		<position x="10" y="45" />
+		<text text="eratio (F1/F2):" />
+	</text_2d>
+	<text_2d>
+		<color r="1.0" g="0.5" b="0.1" />
+		<position x="10" y="65" />
+		<text text="etwist (F3/F4):" />
+	</text_2d>
+</font>
+
+<texture name="tex1" filename="stars1.jpg" pixel_format="RGB"/>
+<texture name="tex2" filename="flare1.jpg" pixel_format="RGB"/>
+<texture name="tex3" filename="flare7.jpg" pixel_format="RGB"/>
+<texture name="tex4" filename="flare6.jpg" pixel_format="RGB"/>
+<texture name="tex5" filename="flare5.jpg" pixel_format="RGB"/>
+<texture name="tex6" filename="flare4.jpg" pixel_format="RGB"/>
+<texture name="tex7" filename="flare3.jpg" pixel_format="RGB"/>
+<texture name="tex8" filename="flare2.jpg" pixel_format="RGB"/>
+
+
+<material name="mat1"> <add_texture texture_unit="0" texture_name="tex1" /> </material>
+<material name="mat2"> <add_texture texture_unit="0" texture_name="tex2" /> </material>
+<material name="mat3"> <add_texture texture_unit="0" texture_name="tex3" /> </material>
+<material name="mat4"> <add_texture texture_unit="0" texture_name="tex4" /> </material>
+<material name="mat5"> <add_texture texture_unit="0" texture_name="tex5" /> </material>
+<material name="mat6"> <add_texture texture_unit="0" texture_name="tex6" /> </material>
+<material name="mat7"> <add_texture texture_unit="0" texture_name="tex7" /> </material>
+<material name="mat8"> <add_texture texture_unit="0" texture_name="tex8" /> </material>
+
+<script name="init_script" filename="script.lua" run_mode="EXECUTE_ONCE" />
+<script name="update_scene" run_mode="EXECUTE_EACH_FRAME">
+	<raw_data><![CDATA[ frame(); ]]></raw_data>
+</script>
+
+<script name="eratio_inc" run_mode="ASYNCHRONOUS" >
+	<raw_data><![CDATA[eratio=1.01*eratio; update();]]></raw_data>
+</script> 
+<script name="eratio_dec" run_mode="ASYNCHRONOUS" >
+	<raw_data><![CDATA[eratio=eratio/1.01; update();]]></raw_data>
+</script> 
+<script name="etwist_inc" run_mode="ASYNCHRONOUS" >
+	<raw_data><![CDATA[etwist=etwist+0.1; update();]]></raw_data>
+</script> 
+<script name="etwist_dec" run_mode="ASYNCHRONOUS" >
+	<raw_data><![CDATA[etwist=etwist-0.1; update();]]></raw_data>
+</script> 
+
+<hotkey name="eratio_inc" key="KEY_F1" script="eratio_inc" />
+<hotkey name="eratio_dec" key="KEY_F2" script="eratio_dec" />
+<hotkey name="etwist_inc" key="KEY_F3" script="etwist_inc" />
+<hotkey name="etwist_dec" key="KEY_F4" script="etwist_dec" />
+
+<curve name="ellipse1" render="TRUE" num_points="5"/>
+
+</demoniak3d>
+

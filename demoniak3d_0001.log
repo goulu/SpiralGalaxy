@@ -1,0 +1,58 @@
+<->[NORMAL]#Sun Sep 16 16:31:51 2018#Demoniak3D is starting up - version: 1.20.0.#
+<->[NORMAL]#Sun Sep 16 16:31:51 2018#Current Screen Settings: WIDTH=1920   HEIGHT=1080  BPP=32  FREQ=60#
+<->[NORMAL]#Sun Sep 16 16:31:51 2018#Current Screen Settings: WIDTH=1920   HEIGHT=1080  BPP=32  FREQ=60#
+<->[NORMAL]#Sun Sep 16 16:31:51 2018#oZone3D Engine is starting up - kernel version: 2.26.0 - codename: NitroGen#
+<->[NORMAL]#Sun Sep 16 16:31:52 2018#RenderingCore plugin o3PluginRenderingCoreOpenGL is used as default RenderingCore.#
+<->[NORMAL]#Sun Sep 16 16:31:52 2018#o3PluginAudioFMOD INFO: Init DirectSound driver.#
+<->[NORMAL]#Sun Sep 16 16:31:52 2018#o3PluginAudioFMOD INFO: Périphérique audio principal#
+<->[NORMAL]#Sun Sep 16 16:31:52 2018#o3PluginAudioFMOD INFO: Hardware 2D channels: 32#
+<->[NORMAL]#Sun Sep 16 16:31:52 2018#o3PluginAudioFMOD INFO: Hardware 3D channels: 32#
+<->[NORMAL]#Sun Sep 16 16:31:52 2018#oZone3D Engine kernel startup completed.#
+<->[NORMAL]#Sun Sep 16 16:31:52 2018#o3PluginRenderingCoreOpenGL INFO: OpenGL FSAA samples supported: 2X#
+<->[NORMAL]#Sun Sep 16 16:31:52 2018#o3PluginRenderingCoreOpenGL INFO: OpenGL FSAA samples supported: 4X#
+<->[NORMAL]#Sun Sep 16 16:31:52 2018#o3PluginRenderingCoreOpenGL INFO: OpenGL FSAA samples supported: 8X#
+<->[NORMAL]#Sun Sep 16 16:31:52 2018#o3PluginRenderingCoreOpenGL INFO: OpenGL FSAA samples supported: 16X#
+<->[NORMAL]#Sun Sep 16 16:31:52 2018#o3PluginRenderingCoreOpenGL INFO: OpenGL FSAA samples supported: 32X#
+<->[NORMAL]#Sun Sep 16 16:31:52 2018#o3PluginRenderingCoreOpenGL INFO: Init 4X FSAA ok#
+<->[NORMAL]#Sun Sep 16 16:31:53 2018#o3PluginRenderingCoreOpenGL INFO: OpenGL version detected: 4.6.0 NVIDIA 399.07#
+<->[NORMAL]#Sun Sep 16 16:31:53 2018#o3PluginRenderingCoreOpenGL INFO: Your hardware does not seem to support OpenGL. Minimun required version is OpenGL 1.2. Check and update your drivers.#
+<->[NORMAL]#Sun Sep 16 16:31:53 2018#o3PluginRenderingCoreOpenGL INFO: Max Viewport Size: 16384#
+<->[NORMAL]#Sun Sep 16 16:31:53 2018#o3PluginRenderingCoreOpenGL INFO: Hardware generation of mipmaps NOT supported (OpenGL<1.4) but GL_SGIS_generate_mipmap supported#
+<->[NORMAL]#Sun Sep 16 16:31:53 2018#o3PluginRenderingCoreOpenGL INFO: POTD texture max size 16384x16384 pixels#
+<->[NORMAL]#Sun Sep 16 16:31:53 2018#o3PluginRenderingCoreOpenGL INFO: number of texture units: 4#
+<->[NORMAL]#Sun Sep 16 16:31:53 2018#o3PluginRenderingCoreOpenGL INFO: Your opengl implementation supports multitexturing. Good#
+<->[NORMAL]#Sun Sep 16 16:31:53 2018#o3PluginRenderingCoreOpenGL INFO: hardware Cube Mapping supported#
+<->[NORMAL]#Sun Sep 16 16:31:53 2018#o3PluginRenderingCoreOpenGL INFO: hardware DOT3 Bump Mapping supported#
+<->[NORMAL]#Sun Sep 16 16:31:53 2018#o3PluginRenderingCoreOpenGL INFO: Vertical SYNChronisation control supported - vsync disabled - performance speed up#
+<->[NORMAL]#Sun Sep 16 16:31:53 2018#o3PluginRenderingCoreOpenGL INFO: separate_specular_color supported#
+<->[NORMAL]#Sun Sep 16 16:31:53 2018#o3PluginRenderingCoreOpenGL INFO: texture_edge_clamp supported#
+<->[NORMAL]#Sun Sep 16 16:31:53 2018#o3PluginRenderingCoreOpenGL INFO: glDrawRangeElements supported#
+<->[NORMAL]#Sun Sep 16 16:31:53 2018#o3PluginRenderingCoreOpenGL INFO: compiled_vertex_array supported#
+<->[NORMAL]#Sun Sep 16 16:31:53 2018#o3PluginRenderingCoreOpenGL INFO: EXT_vertex_array supported#
+<->[NORMAL]#Sun Sep 16 16:31:53 2018#o3PluginRenderingCoreOpenGL INFO: fog_coord supported#
+<->[NORMAL]#Sun Sep 16 16:31:53 2018#o3PluginRenderingCoreOpenGL INFO: texture_filter_anisotropic supported - max anisotropic value: 16.00#
+<->[NORMAL]#Sun Sep 16 16:31:53 2018#o3PluginRenderingCoreOpenGL INFO: vertex_buffer_object supported - very good - you're ready for high polycount!!!#
+<->[NORMAL]#Sun Sep 16 16:31:53 2018#o3PluginRenderingCoreOpenGL INFO: vertex_program and fragment_program supported. Very good! Welcome to the amazing world of Vertex and Pixel Shaders!#
+<->[NORMAL]#Sun Sep 16 16:31:53 2018#o3PluginRenderingCoreOpenGL INFO: vertex shader max instructions: 65536#
+<->[NORMAL]#Sun Sep 16 16:31:53 2018#o3PluginRenderingCoreOpenGL INFO: fragment shader max instructions: 65536#
+<->[NORMAL]#Sun Sep 16 16:31:53 2018#o3PluginRenderingCoreOpenGL INFO: number of vertex shader texture samplers: 32#
+<->[NORMAL]#Sun Sep 16 16:31:53 2018#o3PluginRenderingCoreOpenGL INFO: number of pixel shader texture samplers: 32#
+<->[NORMAL]#Sun Sep 16 16:31:53 2018#o3PluginRenderingCoreOpenGL INFO: Pixel Shader - nVidia specific - max execution instructions: 16777216#
+<->[NORMAL]#Sun Sep 16 16:31:53 2018#o3PluginRenderingCoreOpenGL INFO: Vertex Shader - nVidia specific - max execution instructions: 16777216#
+<->[NORMAL]#Sun Sep 16 16:31:53 2018#o3PluginRenderingCoreOpenGL INFO: OpenGL Shading Language (GLSL) 4.60 NVIDIA supported - very very good! welcome to the amazing world of HLSL!#
+<->[NORMAL]#Sun Sep 16 16:31:53 2018#o3PluginRenderingCoreOpenGL INFO: stencil_two_side supported#
+<->[NORMAL]#Sun Sep 16 16:31:53 2018#o3PluginRenderingCoreOpenGL INFO: ATI separate_stencil NOT supported#
+<->[NORMAL]#Sun Sep 16 16:31:53 2018#o3PluginRenderingCoreOpenGL INFO: depth_clamp supported#
+<->[NORMAL]#Sun Sep 16 16:31:53 2018#o3PluginRenderingCoreOpenGL INFO: point_sprite supported - point_sprite max size = 2047.000000.#
+<->[NORMAL]#Sun Sep 16 16:31:53 2018#o3PluginRenderingCoreOpenGL INFO: Pixel Buffer Object (PBO) supported#
+<->[NORMAL]#Sun Sep 16 16:31:53 2018#o3PluginRenderingCoreOpenGL INFO: Frame Buffer Object (FBO) supported#
+<->[NORMAL]#Sun Sep 16 16:31:53 2018#o3PluginRenderingCoreOpenGL INFO: Texture Compression supported#
+<->[NORMAL]#Sun Sep 16 16:31:53 2018#o3PluginRenderingCoreOpenGL INFO: S3TC Texture Compression supported#
+<->[NORMAL]#Sun Sep 16 16:31:53 2018#o3PluginRenderingCoreOpenGL INFO: ATI 3Dc Texture Compression NOT supported#
+<->[NORMAL]#Sun Sep 16 16:31:53 2018#o3PluginRenderingCoreOpenGL INFO: NPOTD Regular Textures supported#
+<->[NORMAL]#Sun Sep 16 16:31:53 2018#o3PluginRenderingCoreOpenGL INFO: Texture Rectangles supported#
+<->[NORMAL]#Sun Sep 16 16:31:53 2018#o3PluginRenderingCoreOpenGL INFO: Texture Rectangles max size 16384x16384 pixels#
+<->[NORMAL]#Sun Sep 16 16:31:53 2018#o3PluginRenderingCoreOpenGL INFO: GL_ARB_texture_float supported#
+<->[NORMAL]#Sun Sep 16 16:31:53 2018#o3PluginRenderingCoreOpenGL INFO: GL_ATI_texture_float supported#
+<->[NORMAL]#Sun Sep 16 16:31:53 2018#o3PluginRenderingCoreOpenGL INFO: GL_NV_float_buffer supported#
+<->[NORMAL]#Sun Sep 16 16:31:53 2018#o3PluginRenderingCoreOpenGL INFO: oZone3D OpenGL Rendering Core successfully started up and ready#
